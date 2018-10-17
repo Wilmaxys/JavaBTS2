@@ -1,4 +1,4 @@
-package fr.eni.javaee.suividesrepas.bo;
+package dao;
 
 import java.sql.Timestamp;
 import java.text.ParseException;
@@ -8,8 +8,8 @@ import java.util.GregorianCalendar;
 
 public class TransType {
 
-	public static final String FORMAT_DATE = "dd/MM/yyyy à HH:mm:ss";
-	//      22/08/2018 à 20:20:20
+	public static final String FORMAT_DATE = "dd/MM/yyyy ï¿½ HH:mm:ss";
+	//      22/08/2018 ï¿½ 20:20:20
 
 	
 	public static String StringFromGregorianCalendar(GregorianCalendar gc) {

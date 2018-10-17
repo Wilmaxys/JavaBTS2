@@ -5,6 +5,7 @@ import jeu.cartes.carte.ICarte;
 import jeu.cartes.carte.Symbole;
 
 import java.awt.*;
+
 import java.util.StringTokenizer;
 
 public class SerialiseurCarte implements ISerialiseur<ICarte> {
